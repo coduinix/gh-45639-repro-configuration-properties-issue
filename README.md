@@ -1,6 +1,8 @@
 Spring ConfigurationProperties issue reproduction
 -------------------------------------------------
 
+> Reproduction case for issue: spring-projects/spring-boot#45639
+
 The [GreetingProperties](src/main/java/com/example/demo/GreetingProperties.java) is a `@ConfigurationProperties` annotated class.
 It contains a nested properties object `GreetingDetails`.
 
